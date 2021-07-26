@@ -6,13 +6,13 @@ pipeline {
     }
 stages { 
      
- //stage('Preparation') { 
- //   steps {
+   stage('Preparation') { 
+      steps {
 // for display purpose
 
       // Get some code from a GitHub repository
 
-   //  git 'https://github.com/raknas999/GOL-Repo.git'
+       git 'https://github.com/akhil1996261/Gol-Repo.git'
 
       // Get the Maven tool.
      
